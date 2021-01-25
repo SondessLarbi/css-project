@@ -1,0 +1,40 @@
+[
+    {
+          "name":"align-content",
+          "definition": "align-content property aligns the content vertically (along cross/block/column axis) within a container. The container adjusts its padding so as to align the content vertically. We are using a flex container",
+          "Img":"https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png",
+      
+          "propertyValue": [
+              {
+                "name":"normal",
+                  "description":"It stretches out the descendant elements to fill the height completely.",
+                  "value":"normal",
+                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+              },
+              {
+                "name":"normal",
+                  "description":"It stretches out the descendant elements to fill the height completely.",
+                  "value":"normal",
+                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+              },
+              {
+                "name":"normal",
+                  "description":"It stretches out the descendant elements to fill the height completely.",
+                  "value":"normal",
+                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+              },
+              {
+                "name":"normal",
+                  "description":"It stretches out the descendant elements to fill the height completely.",
+                  "value":"normal",
+                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+              },
+              {
+                "name":"normal",
+                  "description":"It stretches out the descendant elements to fill the height completely.",
+                  "value":"normal",
+                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+              }
+              ]
+  }
+  ]
