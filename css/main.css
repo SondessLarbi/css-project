@@ -93,7 +93,7 @@ h1 {
   }
   .propValue {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
   }
 
   
