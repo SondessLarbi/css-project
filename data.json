@@ -6,34 +6,34 @@
       
           "propertyValue": [
               {
-                "name":"normal",
-                  "description":"It stretches out the descendant elements to fill the height completely.",
-                  "value":"normal",
-                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+                "name":"flex-start",
+                  "description":"lines packed to the start of the container.",
+                  "value":"flex-start",
+                  "propertyImg":"../images/flex-start.png"
               },
               {
-                "name":"normal",
-                  "description":"It stretches out the descendant elements to fill the height completely.",
-                  "value":"normal",
-                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+                "name":"flex-end",
+                  "description":"lines packed to the end of the container.",
+                  "value":"flex-end",
+                  "propertyImg":"../images/flex-end.png"
               },
               {
-                "name":"normal",
-                  "description":"It stretches out the descendant elements to fill the height completely.",
-                  "value":"normal",
-                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+                "name":"center",
+                  "description":"lines packed to the center of the container.",
+                  "value":"center",
+                  "propertyImg":"../images/center.png"
               },
               {
-                "name":"normal",
-                  "description":"It stretches out the descendant elements to fill the height completely.",
-                  "value":"normal",
-                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+                "name":"space-between",
+                  "description":"lines evenly distributed; the first line is at the start of the container while the last one is at the end.",
+                  "value":"space-between",
+                  "propertyImg":"../images/space-between.png"
               },
               {
-                "name":"normal",
-                  "description":"It stretches out the descendant elements to fill the height completely.",
-                  "value":"normal",
-                  "propertyImg":"https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O"
+                "name":"space-around",
+                  "description":"lines evenly distributed with equal space between them.",
+                  "value":"space-around",
+                  "propertyImg":"../images/space-around.png"
               }
               ]
   }

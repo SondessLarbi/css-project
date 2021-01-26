@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+    margin: 1px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -74,7 +74,7 @@ h1 {
     margin-bottom: 40px;
   }
   .TitleAndTry {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0.50em 0;
     color: white;
     width: 102%;
@@ -83,6 +83,7 @@ h1 {
     background-color:#0fbfcf;
       display: flex;
       justify-content: space-between;
+      align-items: center;
   }
 
   .propertyImg {
@@ -93,7 +94,9 @@ h1 {
   }
   .propValue {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
   }
-
+.descreptionProperty {
+    width: 300px;
+}
   
