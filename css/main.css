@@ -1,11 +1,11 @@
 * {
-    margin: 1px;
-  padding: 0;
+    margin: 0;
+  /* padding: 0; */
   box-sizing: border-box;
 }
 body {
   background: #fdfdfd;
-  font-family: "Nunito", sans-serif;
+  font-family: "ui-monospace";
   font-size: 1rem;
 }
 
@@ -15,18 +15,31 @@ body {
 .footer { grid-area: footer; }
 
 .bodyStructure {
-    display: grid;
+    /* display: grid;
     grid-template-areas: 'header header header header header header'
     'menu main main main right right'
     'menu footer footer footer footer footer';;
-    grid-gap: 10px;
-    padding: 10px;
+    grid-gap: 10px; */
+    /* padding: 10px; */
     background-color: #3c78e71c;
 
 }
 .propertyList  {
-    margin-left: 24px;
+    width: 220px;
+    margin: 0 24px 0 24px;
   }
+  .propretyTitle {
+    margin:12px 0 20px 0;
+  }
+  .proplist {
+    text-decoration: none;
+    display: block;
+    align-items: flex-end;
+    color: royalblue;
+    font-size: 16px;
+    font-family: Verdana,sans-serif;
+  }
+
 .header {
     width: 100%;
     margin-bottom: 20px;
@@ -35,25 +48,50 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-
+    background-color: #0fbfcf;
+    position: relative;
+    z-index: 4;
+    font-size: 25px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    color: #ffff;
+}
+.listAndContainer {
+  display: flex;
 }
 #searchProperty {
     width: 212px;
     height: 40px;
+    margin-bottom: 16px;
 
+    /* width: 212px;
+    height: 40px;
+    background-color: rgb(76, 175, 80);
+    position: fixed;
+    box-shadow: 1px 1px 3px rgba(230,230,230,1); */
 }
+
 #searchPropertyInput {
     width: 198px;
     height: 40px;
     padding: 0px 7px;
     border: 0px;
     border-radius: 6px;
+
+    /* width: 198px;
+    height: 40px;
+    position: absolute;
+    padding: 0px 7px;
+    border: 0px;
+    outline: 0px;
+    box-shadow: 1px 1px 3px rgba(230,230,230,1); */
 }
+
 .definition {
     text-align: center;
     width: 100%;
     margin: auto;
     padding: 4px 8px;
+    text-align: center;
 }
 
 h1 {
