@@ -1,8 +1,8 @@
 
 
-let propertyDefinition = document.querySelector(".propertyDefinition")
+let property = document.querySelector(".property")
 let PropertyValue = document.querySelector(".propertyValue")
-let propList = document.querySelector(".propList")
+let propertyList = document.querySelector(".propertyList")
 
 
 fetch('../data.json')
@@ -11,7 +11,9 @@ fetch('../data.json')
         let output = ""
         let outputProperty = ""
         let outputList = ""
-
+        properties.map(Property => {
+            console.log(Property.name,"hahahhaahhahahhahlist")
+        })
         properties.map(Property => {
             Property.propertyValue.map(value => {
                 (outputProperty += `
@@ -27,9 +29,13 @@ fetch('../data.json')
             (output += `
                       <div>
                 <div class="TitleAndTry"><p class="propertyTitle">${Property.name}</p>
-                <a href='https://jsfiddle.net/8r936ck1/'>try it yourself</a></div>
-                <p >${Property.definition}</p>
-                <div>
+                <a class="tryJsfiddle" href='https://jsfiddle.net/8r936ck1/'>try it yourself</a></div>
+                <div class="definition" >
+                <p class="defCont">Definition</p>
+                <p class="defProp">${Property.definition}</p>
+                </div>
+                <div class="value">
+                <p class="ValueCont">Property values</p>
                 ${outputProperty}
                 </div>
               </div>
@@ -38,8 +44,29 @@ fetch('../data.json')
 
 
 
-propertyDefinition.innerHTML = output
+            property.innerHTML = output
         });
+
+    })
+    .catch(function (error) {
+        console.error(error);
+    });
+
+    fetch('../data.json')
+    .then((response) => response.json())
+    .then((properties) => {
+        let outputList = ""
+        properties.map(Property => {
+            (outputList += `
+            <div class="list">
+                    <a class="proplist" href="https://www.w3schools.com">${Property.name}</a>
+    </div>
+    `
+  )
+            propertyList.innerHTML = outputList
+
+        })
+
 
     })
     .catch(function (error) {
